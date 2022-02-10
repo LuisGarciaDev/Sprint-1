@@ -62,7 +62,7 @@ body {
     height: 110px;
     background-color: $DarkBlue;
     border-radius: 20px;
-
+    opacity: 0.5;
         
         img {
             float: left;
@@ -94,4 +94,8 @@ body {
        margin-top: 20px
        
     }
+}
+
+.botonPets:hover{
+    opacity: 1;
 }

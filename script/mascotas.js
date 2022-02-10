@@ -2,13 +2,11 @@ const container = document.querySelector('#contenedor');
 
 let mascotas = JSON.parse(localStorage.getItem("Mascota"));
 
-// detallePerro = detallePerro !== null ? detallePerro : "";
-
 const getDetallePerro = () => {
 
     mascotas.forEach(element => {
 
-    const {nombre,imagen,raza,edad,historia,id,imgcard} = element;
+    const {nombre,imagen,raza,edad,historia} = element;
 
     container.innerHTML += `
     <div class="tarjeta">
@@ -71,105 +69,3 @@ const getDetallePerro = () => {
 
 document.addEventListener('DOMContentLoaded', getDetallePerro);
 
-
-
-
-
-
-
-
-
-
-/* const mNombre = document.getElementById('m-nombre');
-const mDireccion = document.getElementById('direccion');
-const mImagen = document.getElementById('mImagen');
-const mRaza = document.getElementById('raza');
-const mEdad = document.getElementById('edad');
-const nombreH = document.getElementById('nombreH');
-const descripcion = document.getElementById('descripcion1');
-
-const pyg = () => {
-    const mascota = JSON.parse(localStorage.getItem('Mascota'))
-    mascota.forEach(element =>{
-        const {nombre, imagen, raza, sex, edad, direccion, historia, imgpublic, namepublic} = element;
-        mNombre.textContent = nombre;
-        mDireccion.textContent = direccion;
-        mImagen.style.background = `url('${imagen}') no-repeat`;
-        mImagen.setAttribute('src', imagen );
-        mRaza.textContent=raza;
-        mEdad.textContent=edad;
-        nombreH.textContent+=nombre;
-        descripcion.textContent=historia;
-        
-    })
-
-} 
-document.addEventListener("DOMContentLoaded",pyg)
-
-
-const urlPerfil = 'http://localhost:3003/perfil/';
-let formulario = document.getElementById('formulario');
-let name = document.getElementById('name').value;
-let lastname = document.getElementById('lastname');
-let email = document.getElementById('email');
-let nameUser = document.getElementById('nameUser');
-let imgUser = document.getElementById('imgUser');
-
-const usuarios = async () => {
-    const resp = await fetch(urlPerfil);
-    const data = await resp.json();
-    return data
-}
-
-const user = async () => {
-    const data = await usuarios();
-    console.log(data)
-    data.forEach(user => {
-        const { id, name, lastname, imagen, email } = user;
-        // imgUser.setAttribute('src', imagen)
-        nameUser.textContent = `${name} ${lastname}`;
-        document.getElementById('id').value = id;
-        document.getElementById('name').value = name;
-        document.getElementById('lastname').value = lastname;
-        document.getElementById('email').value = email;
-
-    })
-    console.log(nameUser)
-}
-
-formulario.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const editar = datos();
-    const id = document.getElementById('id').value;
-    await fetch(urlPerfil + id, {
-        method: 'POST',
-        body: JSON.stringify(editar),
-        headers: {
-            "Content-Type": "application/json; charset=UTF-8"
-        }
-    })
-})
-document.addEventListener("DOMContentLoaded",user)
-
-
-
-
-
-
-
-const datos = () => {
-    let name = document.getElementById('name').value;
-    console.log(name)
-    let lastname = document.getElementById('lastname').value;
-    let email = document.getElementById('email').value;
-    const imagen = './image/Ellipse 10.png';
-    const objeto = {
-        name,
-        lastname,
-        imagen,
-        email
-    }
-    localStorage.setItem("Perfil", JSON.stringify(objeto));
-    return objeto;
-}
- */

@@ -40,22 +40,7 @@ formulario.addEventListener('submit', async (e) => {
         }
     })
 })
-document.addEventListener("DOMContentLoaded",user)
-
-/* formulario.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const editar = datos();
-    const id = document.getElementById('id').value;
-    await fetch(urlPerfil + id, {
-        method: 'PUT',
-        body: JSON.stringify(editar),
-        headers: {
-            "Content-Type": "application/json; charset=UTF-8"
-        }
-    })
-}) */
-
-
+document.addEventListener("DOMContentLoaded",user);
 
 
 

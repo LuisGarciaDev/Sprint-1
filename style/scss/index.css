@@ -46,6 +46,7 @@ body .pantalla {
   height: 110px;
   background-color: #0E172C;
   border-radius: 20px;
+  opacity: 0.5;
 }
 
 .botonPets img {
@@ -75,5 +76,9 @@ body .pantalla {
   margin: 5px;
   margin-left: 40px;
   margin-top: 20px;
+}
+
+.botonPets:hover {
+  opacity: 1;
 }
 /*# sourceMappingURL=index.css.map */
