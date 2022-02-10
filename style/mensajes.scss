@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+
+$ColorPrimary: #FEC7D7;
+$DarkBlue: #0E172C;
+$ColorWhite: #FFFFFE;
+$ColorGrey: #535353;
+$LightPurple: #D9D4E7;
+$ColorCyan: #85D1CE;
+$ColorBlue: #91C1D7;
+$ColorSecundary: #A786DF;
+
+@media (max-width: 768px) { 
+.mensaje {
+    text-align: center;
+    width: 270px;
+    padding: 2%;
+    background-color: $DarkBlue;
+    border-radius: 50px;
+
+    i{
+        font-size: 29px;
+           text-decoration: none;
+           color: $ColorCyan;
+    }
+   }
+   a {
+       text-decoration: none;
+   }
+   .titumen{
+       h1{
+        color: $DarkBlue;
+        margin-top: 30px;
+        font-size: 40px;
+        margin-left: 20px;
+       }
+   }
+
+   .cajamensaje {
+        color: $DarkBlue;
+        position: relative;
+        background-color: $ColorWhite;
+        border-radius: 20px;
+        margin: 25px;
+        padding: 2%;
+
+        
+        
+        h1 {
+            text-align: justify;
+        }
+
+        h2 {
+            color: $ColorGrey;
+            font-size: 25px;
+            position: absolute;
+            right: 120px;
+            top: 25px;
+        }
+
+        p{
+            color: $ColorGrey;
+            text-align: justify;
+            font-size: 28px;
+        }
+       img {
+        margin: 15px;
+        float: left;
+        padding: 5px;
+        background-color: $ColorCyan;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+       }
+       
+       i {
+           top: 90px;
+           right: 20px;
+           position: absolute;
+           font-size: 40px;
+       }
+   
+    }
+
+    .iconflecha {
+            margin: 30px;
+            color:$ColorWhite;
+            text-align: center;
+            background-color: $DarkBlue;
+            font-size: 50px;
+            border-radius: 50%;
+            width: 75px;
+            position: absolute;
+
+        }
+
+        .perfil {
+            position: relative;
+            background-color: $ColorWhite;
+            height: 250px;
+            
+            img {
+                
+                margin-top: 25px;
+                margin-left: 320px;
+                padding: 5px;
+                background-color: $ColorCyan;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                object-fit: cover;
+                }
+            h1{
+                text-align: center;
+                margin-top: 2%;
+            }
+        }
+
+        .chat {
+            position: relative;
+            margin-top: 5%;
+            text-align: center;
+            
+            h2 {
+                
+                font-size: 22px;
+            }
+            
+            .m1{
+                border-radius: 25px;
+                padding: 2%;
+                float: right;
+                width: 55%;
+                text-align: left;
+                margin: 35px;
+                background-color: $ColorWhite;
+                p {
+                    color: $DarkBlue;
+                    font-size: 28px;
+                }
+            }
+           .m2{
+            border-radius: 25px;
+            padding: 2%;
+            float: left;
+            width: 60%;
+            text-align: left;
+            margin: 35px;
+            background-color: $ColorGrey;
+            color: $ColorWhite;
+
+                p{
+                    font-size: 28px;
+                }
+           } 
+           .hora2 {
+
+               position: absolute;
+               left: 340px;
+               top: 225px;
+           }
+        }
+
+        .barratext {
+            border: 1px solid $DarkBlue;
+            border-radius: 10px;
+            bottom: 10%;
+            height: 7%;
+            margin: 30px;
+            width: 90%;
+            position: absolute;
+            background-color: $ColorWhite;
+           
+            p{
+                margin: 15px;
+                font-size: 30px;
+            }
+        }
+        
+        .teclado {
+            img{
+                margin-top: 18%;
+                width: 100%;
+            }
+
+        }
+    }

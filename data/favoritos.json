@@ -1,0 +1,16 @@
+{
+  "favoritos": [
+    {
+      "id": 1,
+      "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020369/Mascotas/Card_lye1dm.png"
+    },
+    {
+      "id": 2,
+      "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020373/Mascotas/Card2_mzmygp.png"
+    },
+    {
+      "id": 5,
+      "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020360/Mascotas/Card5_wdiuzd.png"
+    }
+  ]
+}

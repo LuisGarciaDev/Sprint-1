@@ -1,0 +1,52 @@
+{
+    "gatos":[
+        {   
+            "id":1,
+            "imagen":"https://top-news-stalin-sm-maza.netlify.app/img/gato.jpg",
+            "nombre":"luis",
+            "raza":"Golden Retriever",
+            "sex":"Masculino",
+            "edad": "3 Meses",
+            "direccion": "3100 14th St NW Suite 124, Washington, DC 20010, Estados Unidos",
+            "historia":"Erase una vez una perrita llamada París. Era muy alegre y vivía con una buena familia, pero un día le dejaron solo en la calle, abandonado. Pasó cinco meses y le adoptó una niña linda, con una bonita cabellera y muy feliz",
+            "imgpublic":"https://www.biografiasyvidas.com/biografia/p/fotos/pradera_maria_dolores_1.jpg",
+            "namepublic":"Maria Dolores"
+        },
+        {   
+            "id":2,
+            "imagen":"https://www.zooplus.es/magazine/wp-content/uploads/2019/10/Featured-img-768x512.jpg",
+            "nombre":"james",
+            "raza":"Golden Retriever",
+            "sex":"Masculino",
+            "edad": "3 Meses",
+            "direccion": "3100 14th St NW Suite 124, Washington, DC 20010, Estados Unidos",
+            "historia":"Erase una vez una perrita llamada París. Era muy alegre y vivía con una buena familia, pero un día le dejaron solo en la calle, abandonado. Pasó cinco meses y le adoptó una niña linda, con una bonita cabellera y muy feliz",
+            "imgpublic":"https://www.biografiasyvidas.com/biografia/p/fotos/pradera_maria_dolores_1.jpg",
+            "namepublic":"Maria Dolores"
+        },
+        {   
+            "id":3,
+            "imagen":"https://static1.leonoticias.com/www/multimedia/202102/20/media/cortadas/gateteee-kpLE-U130582841182JJB-1968x1216@Leonoticias.jpg",
+            "nombre":"Cdsfghjk",
+            "raza":"Golden Retriever",
+            "sex":"Masculino",
+            "edad": "3 Meses",
+            "direccion": "3100 14th St NW Suite 124, Washington, DC 20010, Estados Unidos",
+            "historia":"Erase una vez una perrita llamada París. Era muy alegre y vivía con una buena familia, pero un día le dejaron solo en la calle, abandonado. Pasó cinco meses y le adoptó una niña linda, con una bonita cabellera y muy feliz",
+            "imgpublic":"https://www.biografiasyvidas.com/biografia/p/fotos/pradera_maria_dolores_1.jpg",
+            "namepublic":"Maria Dolores"
+        },
+        {   
+            "id":4,
+            "imagen":"https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/60dd8da05bafe884f4c6c56c/gato-slide.jpg",
+            "nombre":"Chester",
+            "raza":"Golden Retriever",
+            "sex":"Masculino",
+            "edad": "3 Meses",
+            "direccion": "3100 14th St NW Suite 124, Washington, DC 20010, Estados Unidos",
+            "historia":"Erase una vez una perrita llamada París. Era muy alegre y vivía con una buena familia, pero un día le dejaron solo en la calle, abandonado. Pasó cinco meses y le adoptó una niña linda, con una bonita cabellera y muy feliz",
+            "imgpublic":"https://www.biografiasyvidas.com/biografia/p/fotos/pradera_maria_dolores_1.jpg",
+            "namepublic":"Maria Dolores"
+        }
+    ]
+}

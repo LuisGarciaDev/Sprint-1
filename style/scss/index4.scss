@@ -1,0 +1,70 @@
+$breakpoints: (
+    sm : 375px,
+    lg : 1000px,
+    xl : 1200px
+);
+@mixin responsive($breakpoint){
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)){
+        @content;
+    }
+}
+
+$ColorPrimary: #FEC7D7;
+$DarkBlue: #0E172C;
+$ColorWhite: #FFFFFE;
+$ColorGrey: #535353;
+$LightPurple: #D9D4E7;
+$ColorCyan: #85D1CE;
+$ColorBlue: #91C1D7;
+
+.inicio1 {
+    background-color: $ColorPrimary;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+.img1 {
+
+        display: flex;
+        justify-content: center;
+
+        img {
+            margin-top: 20%;
+            margin-bottom: auto;
+        }
+    }
+
+.parrafosinicio1 {
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+
+        h2 {
+            color: $DarkBlue;
+            font-size: 30px;
+            margin-top: 10%;
+        }
+
+        p {
+            color: $ColorGrey;
+            font-size: 25px;
+
+        }
+
+        a {
+          
+            button{
+                text-decoration: none;
+                font-size: 20px;
+                color: $ColorWhite;
+                margin-top: 10%;
+                padding: 2%;
+                width: 65%;
+                border-radius: 100px;
+                border: none;
+                background-color: $DarkBlue;
+            }
+        }
+       
+    }
+   }

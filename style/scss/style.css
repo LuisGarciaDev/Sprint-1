@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+@media (max-width: 768px) {
+  body {
+    background-color: #FEC7D7;
+    font-family: 'Nunito', sans-serif;
+  }
+  .pantalla {
+    height: 100vh;
+    margin: 0;
+  }
+  .navbar {
+    padding: 3%;
+  }
+  .navbar i {
+    font-size: 40px;
+  }
+  .home {
+    margin-left: 10px;
+    text-align: center;
+    width: 170px;
+    padding: 2%;
+    background-color: #0E172C;
+    border-radius: 50px;
+  }
+  .home i {
+    font-size: 28px;
+    text-decoration: none;
+    color: #85D1CE;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    background-color: #FEC7D7;
+    font-family: 'Nunito', sans-serif;
+  }
+  .pantalla {
+    height: 100vh;
+    margin: auto;
+  }
+  .navbar {
+    padding: 3%;
+  }
+  .navbar i {
+    font-size: 40px;
+  }
+  .home {
+    margin-left: 10px;
+    text-align: center;
+    width: 170px;
+    padding: 2%;
+    background-color: #0E172C;
+    border-radius: 50px;
+  }
+  .home i {
+    font-size: 28px;
+    text-decoration: none;
+    color: #FFFFFE;
+  }
+  .heart {
+    text-align: center;
+    width: 270px;
+    padding: 2%;
+    background-color: #0E172C;
+    border-radius: 50px;
+  }
+  .heart i {
+    font-size: 29px;
+    text-decoration: none;
+    color: #85D1CE;
+  }
+}
+/*# sourceMappingURL=style.css.map */

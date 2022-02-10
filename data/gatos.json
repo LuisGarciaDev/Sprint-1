@@ -1,0 +1,40 @@
+{
+    "Gatos": [
+        {
+            "id": 5,
+            "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020360/Mascotas/Card5_wdiuzd.png",
+            "nombre": "Matilde",
+            "imagen": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644127962/Mascotas/gato1_z1qatt.jpg",
+            "raza": "British Shorthair",
+            "edad": "6 meses",
+            "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita."
+        },
+        {
+            "id": 6,
+            "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020360/Mascotas/Card6_xg5lok.png",
+            "nombre": "Pelusa",
+            "imagen": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644127933/Mascotas/gato2_cfaegs.jpg",
+            "raza": "Birmano",
+            "edad": "5 meses",
+            "historia": "Pelusa es muy cariñosa y dormilona su comida favorita son las sardinas, me iré a vivir a otro estado y no podré llevarla conmigo espero tú si puedas cuidar de ella."
+        },
+        {
+            "id": 7,
+            "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020360/Mascotas/Card7_i3ewhy.png",
+            "nombre": "Kity",
+            "imagen": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644127934/Mascotas/gato3_ctdynx.jpg",
+            "raza": "Bombay",
+            "edad": "7 meses",
+            "historia": "Kity es muy traviesa y juguetona le encanta jugar afuera o en espacios grandes, ahora estoy viviendo en un solo cuarto dónde ella casi no disfruta por el estrechor, espero pueda conseguir a alguien con una casa o patio gigante."
+        },
+        {
+            "id": 8,
+            "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020360/Mascotas/Card8_qloczo.png",
+            "nombre": "Bombón",
+            "imagen": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644127935/Mascotas/gato4_v1i6yt.jpg",
+            "raza": "Gato americano",
+            "edad": "6 meses",
+            "historia": "Desde pequeña ha sido muy fiel y amorosa, te la estoy regalando ya que tengo un bebé al cuál le da alergia su pelaje, espero puedas cuidar muy bien de ella."
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "perros":[
+        {   
+            "id":1,
+            "imagen":"https://hellobark.com/wp-content/uploads/chester-3.jpg",
+            "nombre":"Chester",
+            "raza":"Golden Retriever",
+            "sex":"Masculino",
+            "edad": "3 Meses",
+            "direccion": "3100 14th St NW Suite 124, Washington, DC 20010, Estados Unidos",
+            "historia":"Erase una vez una perrita llamada París. Era muy alegre y vivía con una buena familia, pero un día le dejaron solo en la calle, abandonado. Pasó cinco meses y le adoptó una niña linda, con una bonita cabellera y muy feliz",
+            "imgpublic":"https://www.biografiasyvidas.com/biografia/p/fotos/pradera_maria_dolores_1.jpg",
+            "namepublic":"Maria Dolores"
+
+        },
+        {   
+            "id":2,
+            "imagen":"https://hellobark.com/wp-content/uploads/chester-3.jpg",
+            "nombre":"Chester",
+            "raza":"Golden Retriever",
+            "sex":"Masculino",
+            "edad": "3 Meses",
+            "direccion": "3100 14th St NW Suite 124, Washington, DC 20010, Estados Unidos",
+            "historia":"Erase una vez una perrita llamada París. Era muy alegre y vivía con una buena familia, pero un día le dejaron solo en la calle, abandonado. Pasó cinco meses y le adoptó una niña linda, con una bonita cabellera y muy feliz",
+            "imgpublic":"https://www.biografiasyvidas.com/biografia/p/fotos/pradera_maria_dolores_1.jpg",
+            "namepublic":"Maria Dolores"
+
+        },
+        {   
+            "id":3,
+            "imagen":"https://hellobark.com/wp-content/uploads/chester-3.jpg",
+            "nombre":"Chester",
+            "raza":"Golden Retriever",
+            "sex":"Masculino",
+            "edad": "3 Meses",
+            "direccion": "3100 14th St NW Suite 124, Washington, DC 20010, Estados Unidos",
+            "historia":"Erase una vez una perrita llamada París. Era muy alegre y vivía con una buena familia, pero un día le dejaron solo en la calle, abandonado. Pasó cinco meses y le adoptó una niña linda, con una bonita cabellera y muy feliz",
+            "imgpublic":"https://www.biografiasyvidas.com/biografia/p/fotos/pradera_maria_dolores_1.jpg",
+            "namepublic":"Maria Dolores"
+
+        },
+        {   
+            "id":4,
+            "imagen":"https://hellobark.com/wp-content/uploads/chester-3.jpg",
+            "nombre":"Chester",
+            "raza":"Golden Retriever",
+            "sex":"Masculino",
+            "edad": "3 Meses",
+            "direccion": "3100 14th St NW Suite 124, Washington, DC 20010, Estados Unidos",
+            "historia":"Erase una vez una perrita llamada París. Era muy alegre y vivía con una buena familia, pero un día le dejaron solo en la calle, abandonado. Pasó cinco meses y le adoptó una niña linda, con una bonita cabellera y muy feliz",
+            "imgpublic":"https://www.biografiasyvidas.com/biografia/p/fotos/pradera_maria_dolores_1.jpg",
+            "namepublic":"Maria Dolores"
+
+        }
+    ] 
+}

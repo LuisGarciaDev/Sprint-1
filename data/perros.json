@@ -1,0 +1,43 @@
+{
+    "Perros": [
+        {
+            "id": 1,
+            "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020369/Mascotas/Card_lye1dm.png",
+            "nombre": "Chester",
+            "imagen": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644123090/Mascotas/img3_wsmu8n.jpg",
+            "raza": "Golden retriever",
+            "edad": "3 meses",
+            "historia": "Chester es juguetón y cariñoso, se lo regalé a mi hija de cumpleaños pero su pelaje le ocaciona alergia, esta en busca de alguien como tú para que cuides de él."
+
+        },
+        {
+            "id": 2,
+            "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020373/Mascotas/Card2_mzmygp.png",
+            "nombre": "Papi",
+            "imagen": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644123090/Mascotas/img2_jbwvlb.jpg",
+            "raza": "Chihuahua",
+            "edad": "2 meses",
+            "historia": "Papi quedo huerfano, su madre falleció y esta en busca de una nueva persona que le brinde amor como su figura materna."
+
+        },
+        {
+            "id": 3,
+            "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020360/Mascotas/Card3_hvvikm.png",
+            "nombre": "Rocky",
+            "imagen": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644123090/Mascotas/img1_fpjs0p.png",
+            "raza": "Rottweiler",
+            "edad": "3 meses",
+            "historia": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada."
+
+        },
+        {
+            "id": 4,
+            "imgcard": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644020360/Mascotas/Card4_cmkgzr.png",
+            "nombre": "Pelusa",
+            "imagen": "https://res.cloudinary.com/ds5jsdvba/image/upload/v1644123090/Mascotas/img4_fsppt8.jpg",
+            "raza": "Bichón frisé",
+            "edad": "2 meses",
+            "historia": "Pelusa es muy juguetona, te la quiero regalar ya que soy adulta mayor y ya no puedo jugar con ella y no quiero que este más triste."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+.text-chat {
+  border: 1px solid #0E172C;
+  border-radius: 10px;
+  bottom: 10%;
+  height: 7%;
+  margin: 30px;
+  width: 90%;
+  position: absolute;
+  background-color: #FFFFFE;
+  font-size: 30px;
+}
+/*# sourceMappingURL=chat.css.map */

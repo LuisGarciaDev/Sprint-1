@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+@media (max-width: 768px) {
+  .mensaje {
+    text-align: center;
+    width: 270px;
+    padding: 2%;
+    background-color: #0E172C;
+    border-radius: 50px;
+  }
+  .mensaje i {
+    font-size: 29px;
+    text-decoration: none;
+    color: #85D1CE;
+  }
+  a {
+    text-decoration: none;
+  }
+  .titumen h1 {
+    color: #0E172C;
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .cajamensaje {
+    color: #0E172C;
+    position: relative;
+    background-color: #FFFFFE;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 2%;
+  }
+  .cajamensaje h1 {
+    text-align: justify;
+  }
+  .cajamensaje h2 {
+    color: #535353;
+    font-size: 25px;
+    position: absolute;
+    right: 120px;
+    top: 25px;
+  }
+  .cajamensaje p {
+    color: #535353;
+    text-align: justify;
+    font-size: 28px;
+  }
+  .cajamensaje img {
+    margin: 15px;
+    float: left;
+    padding: 5px;
+    background-color: #85D1CE;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .cajamensaje i {
+    top: 90px;
+    right: 20px;
+    position: absolute;
+    font-size: 40px;
+  }
+  .iconflecha {
+    margin: 30px;
+    color: #FFFFFE;
+    text-align: center;
+    background-color: #0E172C;
+    font-size: 50px;
+    border-radius: 50%;
+    width: 75px;
+    position: absolute;
+  }
+  .perfil {
+    position: relative;
+    background-color: #FFFFFE;
+    height: 250px;
+  }
+  .perfil img {
+    margin-top: 25px;
+    margin-left: 320px;
+    padding: 5px;
+    background-color: #85D1CE;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .perfil h1 {
+    text-align: center;
+    margin-top: 2%;
+  }
+  .chat {
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .chat h2 {
+    font-size: 22px;
+  }
+  .chat .m1 {
+    border-radius: 25px;
+    padding: 2%;
+    float: right;
+    width: 55%;
+    text-align: left;
+    margin: 35px;
+    background-color: #FFFFFE;
+  }
+  .chat .m1 p {
+    color: #0E172C;
+    font-size: 28px;
+  }
+  .chat .m2 {
+    border-radius: 25px;
+    padding: 2%;
+    float: left;
+    width: 60%;
+    text-align: left;
+    margin: 35px;
+    background-color: #535353;
+    color: #FFFFFE;
+  }
+  .chat .m2 p {
+    font-size: 28px;
+  }
+  .chat .hora2 {
+    position: absolute;
+    left: 340px;
+    top: 225px;
+  }
+  .barratext {
+    border: 1px solid #0E172C;
+    border-radius: 10px;
+    bottom: 10%;
+    height: 7%;
+    margin: 30px;
+    width: 90%;
+    position: absolute;
+    background-color: #FFFFFE;
+  }
+  .barratext p {
+    margin: 15px;
+    font-size: 30px;
+  }
+  .teclado img {
+    margin-top: 18%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=mensajes.css.map */

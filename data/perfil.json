@@ -1,0 +1,18 @@
+{
+  "perfil": [
+    {
+      "id": 1,
+      "name": "Juan",
+      "lastname": "Méndez",
+      "imagen": "../images/Ellipse 10.png",
+      "email": "Juan.mendez@gmail.com"
+    },
+    {
+      "name": "Luis",
+      "lastname": "García",
+      "imagen": "./image/Ellipse 10.png",
+      "email": "vicardenasber@gmail.com",
+      "id": 2
+    }
+  ]
+}

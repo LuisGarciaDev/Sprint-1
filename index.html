@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/scss/index.css">
+    <link rel="stylesheet" href="./style/scss/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <h1 class="titulo-mascota">Adopta una adorable mascota</h1>
+    </div>
+    
+        <div class="categorias">
+            <div>
+                <h3 class="titulo-categoria">Categorías de mascotas</h3>
+            </div>
+            <div id="botonMascota" class="seccion-categorias row text-center">
+                <div class="categoria-perros col">
+                    <button id="perro" type="button" class="boton-perro botonPets">
+                        <img src="./image/Categorías-mascotas.png" class="img-perro">
+                        <p class="parrafo-perro">Perros</p>
+                    </button>
+                </div>
+                <div class="categoria-gatos col">
+                    <button id="gato" type="button" class="boton-gato botonPets">
+                        <img src="./image/Categorías-mascotas (1).png" class="img-gato">
+                        <p class="parrafo-gato">Gatos</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pantalla">
+
+        <div class="container contentM">
+            <div id="mostrarMascotas"></div>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <footer>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="mascota.html">
+                    <i class="bi bi-house home">Home</i>
+                </a>
+                <a class="navbar-brand" href="mensajes.html">
+                    <i class="bi bi-chat"></i>
+                </a>
+                <a class="navbar-brand" href="favoritos.html">
+                    <i class="bi bi-heart"></i>
+                </a>
+                <a class="navbar-brand" href="perfil.html">
+                    <i class="bi bi-person"></i>
+                </a>
+            </div>
+        </nav>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script type="module" src="./script/index.js"></script>
+    <script type="module" src="./script/getData.js"></script>
+
+</body>
+
+</html>
